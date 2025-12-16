@@ -3,7 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "EtudeDeCasIACC": {
+=======
+    "project-angular": {
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -23,7 +27,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/etude-de-cas-iacc",
+=======
+            "outputPath": "dist/project-angular",
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -37,11 +45,22 @@
               }
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
 
             ],
             "scripts": []
+=======
+              "src/styles.css"
+            ],
+            "scripts": [],
+            "server": "src/main.server.ts",
+            "prerender": true,
+            "ssr": {
+              "entry": "server.ts"
+            }
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
           },
           "configurations": {
             "production": {
@@ -71,10 +90,17 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
+<<<<<<< HEAD
               "buildTarget": "EtudeDeCasIACC:build:production"
             },
             "development": {
               "buildTarget": "EtudeDeCasIACC:build:development"
+=======
+              "buildTarget": "project-angular:build:production"
+            },
+            "development": {
+              "buildTarget": "project-angular:build:development"
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
             }
           },
           "defaultConfiguration": "development"
@@ -106,6 +132,10 @@
     }
   },
   "cli": {
+<<<<<<< HEAD
     "analytics": "0c271b9c-692b-436c-b2d3-64b79c94e118"
+=======
+    "analytics": "ca9a4ec3-dd99-464c-91b5-0620c634a2f0"
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
   }
 }

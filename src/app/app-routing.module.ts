@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 import { HomeComponent } from './core/home/home.component';
 import { ListSuggestionComponent } from './features/suggestions/list-suggestion/list-suggestion.component';
 import { NotfoundComponent } from './core/notfound/notfound.component';
@@ -25,6 +26,10 @@ const routes: Routes = [
 
   { path: '**', component: NotfoundComponent } // wildcard
 ];
+=======
+
+const routes: Routes = [];
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

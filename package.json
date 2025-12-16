@@ -1,12 +1,21 @@
 {
+<<<<<<< HEAD
   "name": "etude-de-cas-iacc",
+=======
+  "name": "project-angular",
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+<<<<<<< HEAD
     "test": "ng test"
+=======
+    "test": "ng test",
+    "serve:ssr:project-angular": "node dist/project-angular/server/server.mjs"
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
   },
   "private": true,
   "dependencies": {
@@ -17,17 +26,33 @@
     "@angular/forms": "^18.2.0",
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
+<<<<<<< HEAD
     "@angular/router": "^18.2.0",
     "bootstrap": "^5.3.8",
+=======
+    "@angular/platform-server": "^18.2.0",
+    "@angular/router": "^18.2.0",
+    "@angular/ssr": "^18.2.21",
+    "express": "^4.18.2",
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@angular-devkit/build-angular": "^18.2.0",
     "@angular/cli": "^18.2.0",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
+=======
+    "@angular-devkit/build-angular": "^18.2.21",
+    "@angular/cli": "^18.2.21",
+    "@angular/compiler-cli": "^18.2.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -36,4 +61,8 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15

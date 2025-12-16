@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # EtudeDeCasIACC
+=======
+# ProjectAngular
+>>>>>>> aa0216be398118b4aa30b13c85816d73b109ea15
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
 

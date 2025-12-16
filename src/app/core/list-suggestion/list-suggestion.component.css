@@ -1,0 +1,170 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Barre de recherche */
+.search-bar {
+  margin-bottom: 30px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Liste des suggestions */
+.suggestions-list {
+  display: grid;
+  gap: 20px;
+}
+
+.suggestion-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.suggestion-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* En-tête de la carte */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.card-header h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+  flex: 1;
+}
+
+/* Badge de statut */
+.status-badge {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.status-badge.acceptee {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.status-badge.refusee {
+  background-color: #f44336;
+  color: white;
+}
+
+.status-badge.en-attente {
+  background-color: #FF9800;
+  color: white;
+}
+
+/* Description */
+.description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Informations */
+.info {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Actions */
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-like,
+.btn-favorite {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-like {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn-like:hover {
+  background-color: #1976D2;
+  transform: scale(1.05);
+}
+
+.btn-favorite {
+  background-color: #FFC107;
+  color: #333;
+}
+
+.btn-favorite:hover {
+  background-color: #FFA000;
+  transform: scale(1.05);
+}
+
+/* Section des favoris */
+.favorites-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 2px solid #FFC107;
+}
+
+.favorites-section h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.favorites-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.favorites-section li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: white;
+  border-radius: 5px;
+  border-left: 4px solid #FFC107;
+}
